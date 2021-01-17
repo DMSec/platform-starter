@@ -4,11 +4,11 @@
   <parent>
     <groupId>br.com.dmsec</groupId>
     <artifactId>platform-starter</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
   </parent>
   <groupId>br.com.dmsec</groupId>
   <artifactId>starter-tracing</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <name>starter-tracing</name>
   <url>http://maven.apache.org</url>
   <dependencies>
