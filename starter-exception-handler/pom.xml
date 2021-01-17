@@ -4,7 +4,7 @@
   <parent>
     <groupId>br.com.dmsec</groupId>
     <artifactId>platform-starter</artifactId>
-    <version>1.4.1-SNAPSHOT</version>
+    <version>1.4.1</version>
   </parent>
   <groupId>br.com.dmsec</groupId>
   <artifactId>starter-exception-handler</artifactId>
@@ -60,6 +60,6 @@
   </dependencies>
 
   <scm>
-    <tag>v1.4</tag>
+    <tag>v1.4.1</tag>
   </scm>
 </project>
