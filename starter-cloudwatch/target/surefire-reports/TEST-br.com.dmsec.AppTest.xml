@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/surefire/surefirebooter6681003771393925206.jar /media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/surefire 2021-01-17T17-58-28_888-jvmRun1 surefire17986124526050762767tmp surefire_02064802696117882296tmp"/>
+    <property name="sun.java.command" value="/media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/surefire/surefirebooter1533857787770362934.jar /media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/surefire 2021-01-17T18-08-02_356-jvmRun1 surefire13426346133805746928tmp surefire_018434379374777502048tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/test-classes:/media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/classes:/home/douglasmsi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/surefire/surefirebooter6681003771393925206.jar"/>
+    <property name="surefire.real.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/surefire/surefirebooter1533857787770362934.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.9.1+1-Ubuntu-0ubuntu1.20.04"/>
     <property name="user.name" value="douglasmsi"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testApp" classname="br.com.dmsec.AppTest" time="0.001"/>
+  <testcase name="testApp" classname="br.com.dmsec.AppTest" time="0"/>
 </testsuite>
