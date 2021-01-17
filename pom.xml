@@ -16,7 +16,7 @@
   <description>Platform Starter</description>
 
   <packaging>pom</packaging>
-  <version>1.3</version>
+  <version>1.4-SNAPSHOT</version>
   
   <url>https://github.com/DMSec/platform-starter</url>
 
@@ -203,18 +203,17 @@
     </distributionManagement-->
     <distributionManagement>
         <snapshotRepository>
-                <id>ossrh</id>
-                <name>Central Repository OSSRH</name>
-                <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>sonatype-nexus-snapshots</id>
+            <name>Sonatype Nexus snapshot repository</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
-
         <repository>
-            <id>github</id>
-            <name>github</name>
-            <url>https://maven.pkg.github.com/DMSec/platform-starter</url>
+            <id>sonatype-nexus-staging</id>
+            <name>Sonatype Nexus release repository</name>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
-
     </distributionManagement>
+
 
     <build>
         <pluginManagement>
