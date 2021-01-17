@@ -31,7 +31,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/DMSec/platform-starter.git</developerConnection>
-    <tag>v1.4</tag>
+    <tag>v1.4.1-SNAPSHOT</tag>
   </scm>
 
   
