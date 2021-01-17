@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/surefire/surefirebooter16657287069226205251.jar /media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/surefire 2021-01-17T16-58-48_146-jvmRun1 surefire11250363286245586381tmp surefire_08602960679095766699tmp"/>
+    <property name="sun.java.command" value="/media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/surefire/surefirebooter2793388974001319524.jar /media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/surefire 2021-01-17T17-29-04_641-jvmRun1 surefire17014331256650082740tmp surefire_05385806166885855643tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/test-classes:/media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/classes:/home/douglasmsi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/surefire/surefirebooter16657287069226205251.jar"/>
+    <property name="surefire.real.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-cloudwatch/target/surefire/surefirebooter2793388974001319524.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.9.1+1-Ubuntu-0ubuntu1.20.04"/>
     <property name="user.name" value="douglasmsi"/>
