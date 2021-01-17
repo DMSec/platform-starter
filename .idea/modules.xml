@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/platform-starter.iml" filepath="$PROJECT_DIR$/platform-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-cloudwatch/starter-cloudwatch.iml" filepath="$PROJECT_DIR$/starter-cloudwatch/starter-cloudwatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-commons/starter-commons.iml" filepath="$PROJECT_DIR$/starter-commons/starter-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-context/starter-context.iml" filepath="$PROJECT_DIR$/starter-context/starter-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-exception-handler/starter-exception-handler.iml" filepath="$PROJECT_DIR$/starter-exception-handler/starter-exception-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-feign/starter-feign.iml" filepath="$PROJECT_DIR$/starter-feign/starter-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-logging/starter-logging.iml" filepath="$PROJECT_DIR$/starter-logging/starter-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-metrics/starter-metrics.iml" filepath="$PROJECT_DIR$/starter-metrics/starter-metrics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-prometheus/starter-prometheus.iml" filepath="$PROJECT_DIR$/starter-prometheus/starter-prometheus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-swagger/starter-swagger.iml" filepath="$PROJECT_DIR$/starter-swagger/starter-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-tracing/starter-tracing.iml" filepath="$PROJECT_DIR$/starter-tracing/starter-tracing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/starter-web/starter-web.iml" filepath="$PROJECT_DIR$/starter-web/starter-web.iml" />
+    </modules>
+  </component>
+</project>

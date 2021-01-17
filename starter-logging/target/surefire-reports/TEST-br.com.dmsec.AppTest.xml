@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.com.dmsec.AppTest" time="0.01" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.com.dmsec.AppTest" time="0.014" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/douglasmsi/Desktop/platform-starter-parent/platform-starters/starter-logging/target/test-classes:/home/douglasmsi/Desktop/platform-starter-parent/platform-starters/starter-logging/target/classes:/home/douglasmsi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="java.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-logging/target/test-classes:/media/douglasmsi/dados/Tools/platform-starter/starter-logging/target/classes:/home/douglasmsi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/douglasmsi/.m2/repository/ch/qos/logback/contrib/logback-jackson/0.1.5/logback-jackson-0.1.5.jar:/home/douglasmsi/.m2/repository/ch/qos/logback/contrib/logback-json-core/0.1.5/logback-json-core-0.1.5.jar:/home/douglasmsi/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/douglasmsi/.m2/repository/ch/qos/logback/contrib/logback-json-classic/0.1.5/logback-json-classic-0.1.5.jar:/home/douglasmsi/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/douglasmsi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/douglasmsi/.m2/repository/net/logstash/logback/logstash-logback-encoder/6.3/logstash-logback-encoder-6.3.jar:/home/douglasmsi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/home/douglasmsi/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.11.3/jackson-module-jaxb-annotations-2.11.3.jar:/home/douglasmsi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/home/douglasmsi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/home/douglasmsi/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/douglasmsi/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/douglasmsi/Desktop/platform-starter-parent/platform-starters/starter-logging/target/surefire/surefirebooter16312232950976266999.jar /home/douglasmsi/Desktop/platform-starter-parent/platform-starters/starter-logging/target/surefire 2021-01-17T16-11-25_619-jvmRun1 surefire6928051413169062955tmp surefire_51769413398219033687tmp"/>
+    <property name="sun.java.command" value="/media/douglasmsi/dados/Tools/platform-starter/starter-logging/target/surefire/surefirebooter15270832477227316006.jar /media/douglasmsi/dados/Tools/platform-starter/starter-logging/target/surefire 2021-01-17T16-54-26_925-jvmRun1 surefire2104528425269810722tmp surefire_54709071768056622279tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/douglasmsi/Desktop/platform-starter-parent/platform-starters/starter-logging/target/test-classes:/home/douglasmsi/Desktop/platform-starter-parent/platform-starters/starter-logging/target/classes:/home/douglasmsi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="surefire.test.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-logging/target/test-classes:/media/douglasmsi/dados/Tools/platform-starter/starter-logging/target/classes:/home/douglasmsi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/douglasmsi/.m2/repository/ch/qos/logback/contrib/logback-jackson/0.1.5/logback-jackson-0.1.5.jar:/home/douglasmsi/.m2/repository/ch/qos/logback/contrib/logback-json-core/0.1.5/logback-json-core-0.1.5.jar:/home/douglasmsi/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/douglasmsi/.m2/repository/ch/qos/logback/contrib/logback-json-classic/0.1.5/logback-json-classic-0.1.5.jar:/home/douglasmsi/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/douglasmsi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/douglasmsi/.m2/repository/net/logstash/logback/logstash-logback-encoder/6.3/logstash-logback-encoder-6.3.jar:/home/douglasmsi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/home/douglasmsi/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.11.3/jackson-module-jaxb-annotations-2.11.3.jar:/home/douglasmsi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/home/douglasmsi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/home/douglasmsi/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/douglasmsi/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/douglasmsi"/>
     <property name="user.language" value="en"/>
@@ -27,13 +27,13 @@
     <property name="java.version.date" value="2020-11-04"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/douglasmsi/Desktop/platform-starter-parent/platform-starters/starter-logging"/>
+    <property name="basedir" value="/media/douglasmsi/dados/Tools/platform-starter/starter-logging"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/douglasmsi/Desktop/platform-starter-parent/platform-starters/starter-logging/target/surefire/surefirebooter16312232950976266999.jar"/>
+    <property name="surefire.real.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-logging/target/surefire/surefirebooter15270832477227316006.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.9.1+1-Ubuntu-0ubuntu1.20.04"/>
     <property name="user.name" value="douglasmsi"/>
@@ -45,8 +45,9 @@
     <property name="localRepository" value="/home/douglasmsi/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
     <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2020.3.1"/>
     <property name="java.version" value="11.0.9.1"/>
-    <property name="user.dir" value="/home/douglasmsi/Desktop/platform-starter-parent/platform-starters/starter-logging"/>
+    <property name="user.dir" value="/media/douglasmsi/dados/Tools/platform-starter/starter-logging"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>

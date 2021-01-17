@@ -56,7 +56,149 @@
     <module>starter-web</module>
     <module>starter-tracing</module>
   </modules>
-  
+
+    <properties>
+        <project.scm.id>github</project.scm.id>
+
+        <java.version>11</java.version>
+        <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
+        <spring-cloud-starter-aws.version>2.2.5.RELEASE</spring-cloud-starter-aws.version>
+        <!-- Jaeger -->
+        <jaeger-client.version>0.35.5</jaeger-client.version>
+        <!-- Opentracing -->
+        <opentracing-spring-cloud-starter.version>0.3.8</opentracing-spring-cloud-starter.version>
+        <opentracing-spring-jaeger-starter.version>2.0.3</opentracing-spring-jaeger-starter.version>
+        <opentracing-spring-jaeger-cloud-starter.version>2.0.3</opentracing-spring-jaeger-cloud-starter.version>
+        <opentracing-util.version>0.33.0</opentracing-util.version>
+        <opentracing-aws-sdk-1.version>0.1.5</opentracing-aws-sdk-1.version>
+
+        <project.build.sourceEnconding>UTF-8</project.build.sourceEnconding>
+        <org.json.version>20200518</org.json.version>
+        <swagger.version>2.9.2</swagger.version>
+        <logback-jackson.version>0.1.5</logback-jackson.version>
+        <logback-json-classic.version>0.1.5</logback-json-classic.version>
+        <logstash-logback-encoder.version>6.3</logstash-logback-encoder.version>
+        <mockito-kotlin.version>2.2.0</mockito-kotlin.version>
+        <kotlin.version>1.4.30-M1</kotlin.version>
+
+        <maven-gpg-plugin.version />
+        <nexus-staging-maven-plugin.version>1.6.7</nexus-staging-maven-plugin.version>
+        <maven-gpg-plugin.version>1.5</maven-gpg-plugin.version>
+
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- Opentracing -->
+            <dependency>
+                <groupId>io.opentracing.contrib</groupId>
+                <artifactId>opentracing-spring-cloud-starter</artifactId>
+                <version>${opentracing-spring-cloud-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>opentracing-spring-jaeger-starter</artifactId>
+                <version>${opentracing-spring-jaeger-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.opentracing.contrib</groupId>
+                <artifactId>opentracing-spring-jaeger-cloud-starter</artifactId>
+                <version>${opentracing-spring-jaeger-cloud-starter.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>io.opentracing.contrib</groupId>
+                        <artifactId>opentracing-spring-cloud-starter</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>io.opentracing</groupId>
+                <artifactId>opentracing-util</artifactId>
+                <version>${opentracing-util.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.opentracing.contrib</groupId>
+                <artifactId>opentracing-aws-sdk-1</artifactId>
+                <version>${opentracing-aws-sdk-1.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>${org.json.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ch.qos.logback.contrib</groupId>
+                <artifactId>logback-jackson</artifactId>
+                <version>${logback-jackson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ch.qos.logback.contrib</groupId>
+                <artifactId>logback-json-classic</artifactId>
+                <version>${logback-json-classic.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>net.logstash.logback</groupId>
+                <artifactId>logstash-logback-encoder</artifactId>
+                <version>${logstash-logback-encoder.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.nhaarman.mockitokotlin2</groupId>
+                <artifactId>mockito-kotlin</artifactId>
+                <version>${mockito-kotlin.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>io.micrometer</groupId>
+                <artifactId>micrometer-core</artifactId>
+                <version>${micrometer.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.micrometer</groupId>
+                <artifactId>micrometer-registry-prometheus</artifactId>
+                <version>${micrometer.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.micrometer</groupId>
+                <artifactId>micrometer-registry-cloudwatch</artifactId>
+                <version>${micrometer.version}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-aws</artifactId>
+                <version>${spring-cloud-starter-aws.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>5.6.2</version>
+                <scope>test</scope>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+
 
 
 </project>
