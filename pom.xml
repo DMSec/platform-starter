@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <groupId>org.springframework.boot</groupId>
+        <version>2.4.1</version>
+    </parent>
+
+
+  <groupId>br.com.dmsec</groupId>
+  <artifactId>platform-starter</artifactId>
+  <name>Platform Starter Parent</name>
+  <description>Platform Starter</description>
+
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  
+  <url>https://github.com/DMSec/platform-starter</url>
+
+    <developers>
+        <developer>
+            <id>douglasmsi</id>
+            <name>Douglas Marra</name>
+            <email>douglasmsi@gmail.com</email>
+            <organization>DMSec</organization>
+        </developer>
+    </developers>
+
+    <scm>
+        <developerConnection>scm:git:https://github.com:DMSec/platform-starter.git</developerConnection>
+  </scm>
+
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  
+  <modules>
+    <module>starter-cloudwatch</module>
+    <module>starter-commons</module>
+    <module>starter-context</module>
+    <module>starter-exception-handler</module>
+    <module>starter-feign</module>
+    <module>starter-logging</module>
+    <module>starter-metrics</module>
+    <module>starter-prometheus</module>
+    <module>starter-swagger</module>
+    <module>starter-web</module>
+    <module>starter-tracing</module>
+  </modules>
+  
+
+
+</project>
