@@ -4,11 +4,11 @@
   <parent>
     <groupId>br.com.dmsec</groupId>
     <artifactId>platform-starter</artifactId>
-    <version>1.4.1</version>
+    <version>1.4.2-SNAPSHOT</version>
   </parent>
   <groupId>br.com.dmsec</groupId>
   <artifactId>starter-feign</artifactId>
-  <version>1.2</version>
+  <version>1.3-SNAPSHOT</version>
   <name>starter-feign</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -22,7 +22,7 @@
     <dependency>
       <groupId>br.com.dmsec</groupId>
       <artifactId>starter-context</artifactId>
-      <version>1.2</version>
+      <version>1.3-SNAPSHOT</version>
     </dependency>
 
     <dependency>
@@ -58,13 +58,13 @@
     <dependency>
       <groupId>br.com.dmsec</groupId>
       <artifactId>starter-commons</artifactId>
-      <version>1.2</version>
+      <version>1.3-SNAPSHOT</version>
     </dependency>
 
 
   </dependencies>
 
   <scm>
-    <tag>v1.4.1</tag>
+    <tag>v1.4</tag>
   </scm>
 </project>
