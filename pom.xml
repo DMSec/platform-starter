@@ -30,19 +30,11 @@
     </developers>
 
     <scm>
-        <developerConnection>scm:git:https://github.com:DMSec/platform-starter.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/DMSec/platform-starter.git</developerConnection>
   </scm>
 
   
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-  
+
   <modules>
     <module>starter-cloudwatch</module>
     <module>starter-commons</module>
@@ -199,6 +191,13 @@
     </dependencyManagement>
 
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub</name>
+            <url>https://maven.pkg.github.com/DMSec/platform-starter</url>
+        </repository>
+    </distributionManagement>
 
 
 </project>
