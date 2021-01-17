@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.com.dmsec.AppTest" time="0.012" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.com.dmsec.AppTest" time="0.01" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/media/douglasmsi/dados/Tools/platform-starter/starter-metrics/target/surefire/surefirebooter963194316459507970.jar /media/douglasmsi/dados/Tools/platform-starter/starter-metrics/target/surefire 2021-01-17T17-49-00_242-jvmRun1 surefire5896462609734195785tmp surefire_316021959912536394973tmp"/>
+    <property name="sun.java.command" value="/media/douglasmsi/dados/Tools/platform-starter/starter-metrics/target/surefire/surefirebooter16977334757676375295.jar /media/douglasmsi/dados/Tools/platform-starter/starter-metrics/target/surefire 2021-01-17T17-58-28_888-jvmRun1 surefire18368527855729024348tmp surefire_317841241887609519474tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-metrics/target/test-classes:/media/douglasmsi/dados/Tools/platform-starter/starter-metrics/target/classes:/home/douglasmsi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-metrics/target/surefire/surefirebooter963194316459507970.jar"/>
+    <property name="surefire.real.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-metrics/target/surefire/surefirebooter16977334757676375295.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.9.1+1-Ubuntu-0ubuntu1.20.04"/>
     <property name="user.name" value="douglasmsi"/>
@@ -45,6 +45,7 @@
     <property name="localRepository" value="/home/douglasmsi/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
     <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="idea.version" value="2020.3.1"/>
     <property name="java.version" value="11.0.9.1"/>
     <property name="user.dir" value="/media/douglasmsi/dados/Tools/platform-starter/starter-metrics"/>
     <property name="os.arch" value="amd64"/>
@@ -57,7 +58,6 @@
     <property name="java.vendor" value="Ubuntu"/>
     <property name="java.vm.version" value="11.0.9.1+1-Ubuntu-0ubuntu1.20.04"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="maven.repo.local" value="/home/douglasmsi/.m2/repository"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
   <testcase name="testApp" classname="br.com.dmsec.AppTest" time="0.001"/>
