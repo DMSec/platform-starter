@@ -195,10 +195,11 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>github</name>
+            <name>GitHub DMSec Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/DMSec/platform-starter</url>
         </repository>
     </distributionManagement>
+
 
     <!--distributionManagement>
         <snapshotRepository>
