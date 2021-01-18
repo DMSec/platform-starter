@@ -315,5 +315,13 @@
         </plugins>
     </build>
 
+    <repositories>
+        <repository>
+            <id>github</id>
+            <name>GitHub DMSec Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/DMSec/platform-starter</url>
+        </repository>
+    </repositories>
+
 
 </project>

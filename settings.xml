@@ -12,7 +12,7 @@
             <repositories>
                 <repository>
                     <id>github</id>
-                    <name>GitHub TobseF Apache Maven Packages</name>
+                    <name>GitHub DMSec Apache Maven Packages</name>
                     <url>https://maven.pkg.github.com/DMSec</url>
                 </repository>
             </repositories>
