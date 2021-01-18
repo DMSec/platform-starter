@@ -1,2 +1,0 @@
-org.spring.framework.boot.autoconfigure.EnableAutoConfiguration=\
-  br.com.dmsec.tracing.configuration.TracingAutoConfiguration

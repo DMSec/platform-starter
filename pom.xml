@@ -192,16 +192,15 @@
     </dependencyManagement>
 
 
-    <!--distributionManagement>
+    <distributionManagement>
         <repository>
             <id>github</id>
             <name>github</name>
             <url>https://maven.pkg.github.com/DMSec/platform-starter</url>
         </repository>
+    </distributionManagement>
 
-
-    </distributionManagement-->
-    <distributionManagement>
+    <!--distributionManagement>
         <snapshotRepository>
             <id>sonatype-nexus-snapshots</id>
             <name>Sonatype Nexus snapshot repository</name>
@@ -212,7 +211,7 @@
             <name>Sonatype Nexus release repository</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
-    </distributionManagement>
+    </distributionManagement-->
 
 
     <build>
