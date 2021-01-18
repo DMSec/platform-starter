@@ -4,12 +4,12 @@
   <parent>
     <groupId>br.com.dmsec</groupId>
     <artifactId>platform-starter</artifactId>
-    <version>1.4.2-SNAPSHOT</version>
+    <version>1.4.2</version>
   </parent>
 
   <groupId>br.com.dmsec</groupId>
   <artifactId>starter-cloudwatch</artifactId>
-  <version>1.3-SNAPSHOT</version>
+  <version>1.3</version>
   <name>starter-cloudwatch</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -22,6 +22,6 @@
   </dependencies>
 
   <scm>
-    <tag>v1.4</tag>
+    <tag>v1.4.2</tag>
   </scm>
 </project>

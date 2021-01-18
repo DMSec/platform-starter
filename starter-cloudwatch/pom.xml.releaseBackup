@@ -4,12 +4,13 @@
   <parent>
     <groupId>br.com.dmsec</groupId>
     <artifactId>platform-starter</artifactId>
-    <version>1.4.2</version>
+    <version>1.4.2-SNAPSHOT</version>
   </parent>
+
   <groupId>br.com.dmsec</groupId>
-  <artifactId>starter-swagger</artifactId>
-  <version>1.3</version>
-  <name>starter-swagger</name>
+  <artifactId>starter-cloudwatch</artifactId>
+  <version>1.3-SNAPSHOT</version>
+  <name>starter-cloudwatch</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -18,21 +19,9 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-
-    <dependency>
-      <groupId>io.springfox</groupId>
-      <artifactId>springfox-swagger2</artifactId>
-      <version>${swagger.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>io.springfox</groupId>
-      <artifactId>springfox-swagger-ui</artifactId>
-      <version>${swagger.version}</version>
-    </dependency>
   </dependencies>
 
   <scm>
-    <tag>v1.4.2</tag>
+    <tag>v1.4</tag>
   </scm>
 </project>

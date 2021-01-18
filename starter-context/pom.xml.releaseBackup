@@ -4,13 +4,13 @@
   <parent>
     <groupId>br.com.dmsec</groupId>
     <artifactId>platform-starter</artifactId>
-    <version>1.4.2</version>
+    <version>1.4.2-SNAPSHOT</version>
   </parent>
   <groupId>br.com.dmsec</groupId>
-  <artifactId>starter-prometheus</artifactId>
-  <version>1.3</version>
-  <name>starter-prometheus</name>
-  <url>http://maven.apache.org</url>
+  <artifactId>starter-context</artifactId>
+  <version>1.3-SNAPSHOT</version>
+  <name>starter-context</name>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -20,40 +20,37 @@
     </dependency>
 
     <dependency>
-      <groupId>io.micrometer</groupId>
-      <artifactId>micrometer-core</artifactId>
+      <groupId>br.com.dmsec</groupId>
+      <artifactId>starter-commons</artifactId>
+      <version>1.3-SNAPSHOT</version>
     </dependency>
 
     <dependency>
-      <groupId>io.micrometer</groupId>
-      <artifactId>micrometer-registry-prometheus</artifactId>
-    </dependency>
-
-
-    <dependency>
-      <groupId>io.micrometer</groupId>
-      <artifactId>micrometer-registry-cloudwatch</artifactId>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <optional>true</optional>
     </dependency>
 
     <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-aws</artifactId>
+      <groupId>io.opentracing.contrib</groupId>
+      <artifactId>opentracing-spring-cloud-starter</artifactId>
     </dependency>
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-autoconfigure</artifactId>
+      <artifactId>spring-boot</artifactId>
+      <optional>true</optional>
     </dependency>
 
     <dependency>
-      <groupId>br.com.dmsec</groupId>
-      <artifactId>starter-commons</artifactId>
-      <version>1.3</version>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
     </dependency>
 
   </dependencies>
 
   <scm>
-    <tag>v1.4.2</tag>
+    <tag>v1.4</tag>
   </scm>
 </project>
