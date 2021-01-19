@@ -1,0 +1,6 @@
+swagger:
+  api:
+    info:
+      title: starter-swagger
+      description: Platform Starter
+      version: 1.3-SNAPSHOT
