@@ -4,11 +4,11 @@
   <parent>
     <groupId>br.com.dmsec</groupId>
     <artifactId>platform-starter</artifactId>
-    <version>1.9</version>
+    <version>1.10-SNAPSHOT</version>
   </parent>
   <groupId>br.com.dmsec</groupId>
   <artifactId>starter-exception-handler</artifactId>
-  <version>1.5</version>
+  <version>1.6-SNAPSHOT</version>
   <name>starter-exception-handler</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -22,7 +22,7 @@
     <dependency>
       <groupId>br.com.dmsec</groupId>
       <artifactId>starter-commons</artifactId>
-      <version>1.5</version>
+      <version>1.6-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -60,6 +60,6 @@
   </dependencies>
 
   <scm>
-    <tag>v1.9</tag>
+    <tag>v1.5</tag>
   </scm>
 </project>
