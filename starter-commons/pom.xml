@@ -4,11 +4,11 @@
   <parent>
     <groupId>br.com.dmsec</groupId>
     <artifactId>platform-starter</artifactId>
-    <version>1.9-SNAPSHOT</version>
+    <version>1.9</version>
   </parent>
   <groupId>br.com.dmsec</groupId>
   <artifactId>starter-commons</artifactId>
-  <version>1.5-SNAPSHOT</version>
+  <version>1.5</version>
   <name>starter-commons</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -34,6 +34,6 @@
   </dependencies>
 
   <scm>
-    <tag>v1.5</tag>
+    <tag>v1.9</tag>
   </scm>
 </project>
