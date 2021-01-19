@@ -1,2 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=/
-    br.com.dmsec.starter.swagger.configuration.SwaggerAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=br.com.dmsec.starter.swagger.configuration.SwaggerAutoConfiguration
