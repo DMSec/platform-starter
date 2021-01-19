@@ -1,5 +1,5 @@
 #surefire
-#Tue Jan 19 07:39:56 BRT 2021
+#Tue Jan 19 07:48:10 BRT 2021
 includes1=**/*Test.java
 includes2=**/*Tests.java
 includes0=**/Test*.java
@@ -92,7 +92,7 @@ classPathUrl.16=/home/douglasmsi/.m2/repository/org/aspectj/aspectjweaver/1.9.6/
 classPathUrl.17=/home/douglasmsi/.m2/repository/io/opentracing/contrib/opentracing-concurrent/0.3.0/opentracing-concurrent-0.3.0.jar
 classPathUrl.18=/home/douglasmsi/.m2/repository/io/opentracing/contrib/opentracing-spring-web-starter/2.1.1/opentracing-spring-web-starter-2.1.1.jar
 classPathUrl.19=/home/douglasmsi/.m2/repository/io/opentracing/contrib/opentracing-spring-web/2.1.1/opentracing-spring-web-2.1.1.jar
-pluginPid=54771
+pluginPid=55463
 shutdown=DEFAULT
 classPathUrl.4=/home/douglasmsi/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.3/jackson-datatype-jsr310-2.11.3.jar
 classPathUrl.5=/home/douglasmsi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar

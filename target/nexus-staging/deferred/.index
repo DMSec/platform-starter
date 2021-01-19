@@ -1,4 +1,3 @@
-br/com/dmsec/platform-starter/1.7-SNAPSHOT/platform-starter-1.7-SNAPSHOT.pom=br.com.dmsec:platform-starter:1.7-SNAPSHOT:n/a:pom:pom:n/a:n/a:ossrh:https://oss.sonatype.org/content/repositories/snapshots
 br/com/dmsec/starter-cloudwatch/1.4-SNAPSHOT/starter-cloudwatch-1.4-SNAPSHOT.jar=br.com.dmsec:starter-cloudwatch:1.4-SNAPSHOT:n/a:jar:jar:starter-cloudwatch-1.4-SNAPSHOT.pom:n/a:ossrh:https://oss.sonatype.org/content/repositories/snapshots
 br/com/dmsec/starter-commons/1.4-SNAPSHOT/starter-commons-1.4-SNAPSHOT.jar=br.com.dmsec:starter-commons:1.4-SNAPSHOT:n/a:jar:jar:starter-commons-1.4-SNAPSHOT.pom:n/a:ossrh:https://oss.sonatype.org/content/repositories/snapshots
 br/com/dmsec/starter-context/1.4-SNAPSHOT/starter-context-1.4-SNAPSHOT.jar=br.com.dmsec:starter-context:1.4-SNAPSHOT:n/a:jar:jar:starter-context-1.4-SNAPSHOT.pom:n/a:ossrh:https://oss.sonatype.org/content/repositories/snapshots

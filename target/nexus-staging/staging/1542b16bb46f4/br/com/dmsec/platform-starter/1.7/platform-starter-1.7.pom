@@ -16,7 +16,7 @@
   <description>Platform Starter</description>
 
   <packaging>pom</packaging>
-  <version>1.7-SNAPSHOT</version>
+  <version>1.7</version>
 
   <url>https://github.com/DMSec/platform-starter</url>
 
