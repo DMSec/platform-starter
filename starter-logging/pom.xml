@@ -4,11 +4,11 @@
   <parent>
     <groupId>br.com.dmsec</groupId>
     <artifactId>platform-starter</artifactId>
-    <version>1.11</version>
+    <version>1.12-SNAPSHOT</version>
   </parent>
   <groupId>br.com.dmsec</groupId>
   <artifactId>starter-logging</artifactId>
-  <version>1.7</version>
+  <version>1.8-SNAPSHOT</version>
   <name>starter-logging</name>
   <url>http://maven.apache.org</url>
   <packaging>jar</packaging>
@@ -43,6 +43,6 @@
   </dependencies>
 
   <scm>
-    <tag>v1.11</tag>
+    <tag>v1.10</tag>
   </scm>
 </project>
