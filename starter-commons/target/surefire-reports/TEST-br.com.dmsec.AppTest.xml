@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/media/douglasmsi/dados/Tools/platform-starter/starter-commons/target/surefire/surefirebooter17233310606808517566.jar /media/douglasmsi/dados/Tools/platform-starter/starter-commons/target/surefire 2021-01-18T22-09-33_504-jvmRun1 surefire7318279330208445914tmp surefire_118097602342773595669tmp"/>
+    <property name="sun.java.command" value="/media/douglasmsi/dados/Tools/platform-starter/starter-commons/target/surefire/surefirebooter783994547952583772.jar /media/douglasmsi/dados/Tools/platform-starter/starter-commons/target/surefire 2021-01-19T07-39-53_272-jvmRun1 surefire13247985936926607277tmp surefire_15585093058842433047tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-commons/target/test-classes:/media/douglasmsi/dados/Tools/platform-starter/starter-commons/target/classes:/home/douglasmsi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/home/douglasmsi/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.3/jackson-datatype-jsr310-2.11.3.jar:/home/douglasmsi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/home/douglasmsi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/home/douglasmsi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/home/douglasmsi/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-commons/target/surefire/surefirebooter17233310606808517566.jar"/>
+    <property name="surefire.real.class.path" value="/media/douglasmsi/dados/Tools/platform-starter/starter-commons/target/surefire/surefirebooter783994547952583772.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.9.1+1-Ubuntu-0ubuntu1.20.04"/>
     <property name="user.name" value="douglasmsi"/>
