@@ -9,7 +9,7 @@
 
   <groupId>br.com.dmsec</groupId>
   <artifactId>starter-cloudwatch</artifactId>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.4</version>
   <name>starter-cloudwatch</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -22,6 +22,6 @@
   </dependencies>
 
   <scm>
-    <tag>v1.5</tag>
+    <tag>v1.7</tag>
   </scm>
 </project>

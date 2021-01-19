@@ -32,7 +32,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/DMSec/platform-starter.git</developerConnection>
         <url>http://github.com/DMSec/platform-starter/tree/main</url>
-    <tag>v1.5</tag>
+    <tag>v1.7</tag>
   </scm>
 
   

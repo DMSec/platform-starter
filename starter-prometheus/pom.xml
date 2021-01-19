@@ -8,7 +8,7 @@
   </parent>
   <groupId>br.com.dmsec</groupId>
   <artifactId>starter-prometheus</artifactId>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.4</version>
   <name>starter-prometheus</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -48,12 +48,12 @@
     <dependency>
       <groupId>br.com.dmsec</groupId>
       <artifactId>starter-commons</artifactId>
-      <version>1.4-SNAPSHOT</version>
+      <version>1.4</version>
     </dependency>
 
   </dependencies>
 
   <scm>
-    <tag>v1.5</tag>
+    <tag>v1.7</tag>
   </scm>
 </project>

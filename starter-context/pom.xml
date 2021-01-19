@@ -8,7 +8,7 @@
   </parent>
   <groupId>br.com.dmsec</groupId>
   <artifactId>starter-context</artifactId>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.4</version>
   <name>starter-context</name>
 
   <dependencies>
@@ -22,7 +22,7 @@
     <dependency>
       <groupId>br.com.dmsec</groupId>
       <artifactId>starter-commons</artifactId>
-      <version>1.4-SNAPSHOT</version>
+      <version>1.4</version>
     </dependency>
 
     <dependency>
@@ -51,6 +51,6 @@
   </dependencies>
 
   <scm>
-    <tag>v1.5</tag>
+    <tag>v1.7</tag>
   </scm>
 </project>
