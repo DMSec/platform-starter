@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: br.com.dmsec:starter-context:1.6-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/br/com/dmsec/starter-context/1.6-SNAPSHOT/starter-context-1.6-20210119.172322-2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/br/com/dmsec/starter-context/1.6-SNAPSHOT/starter-context-1.6-20210119.172322-2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/br/com/dmsec/starter-context/1.6-SNAPSHOT/starter-context-1.6-20210119.172322-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

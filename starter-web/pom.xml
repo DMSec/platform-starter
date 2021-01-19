@@ -11,6 +11,8 @@
   <version>1.6-SNAPSHOT</version>
   <name>starter-web</name>
   <url>http://maven.apache.org</url>
+  <packaging>jar</packaging>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -19,10 +21,12 @@
       <scope>test</scope>
     </dependency>
 
+
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <version>2.3.2.RELEASE</version>
+  </dependency>
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -56,14 +60,18 @@
     </dependency>
 
 
-    <!-- Incluir Context -->
+    <!-- Incluir Context
     <dependency>
       <groupId>br.com.dmsec</groupId>
       <artifactId>starter-context</artifactId>
       <version>1.6-SNAPSHOT</version>
     </dependency>
+  -->
 
-
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
+    </dependency>
   </dependencies>
 
   <scm>

@@ -11,6 +11,8 @@
   <version>1.6-SNAPSHOT</version>
   <name>starter-tracing</name>
   <url>http://maven.apache.org</url>
+  <packaging>jar</packaging>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -34,6 +36,11 @@
     <dependency>
       <groupId>io.opentracing</groupId>
       <artifactId>opentracing-util</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
     </dependency>
 
 </dependencies>

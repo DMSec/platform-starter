@@ -11,6 +11,8 @@
   <version>1.6-SNAPSHOT</version>
   <name>starter-swagger</name>
   <url>http://maven.apache.org</url>
+  <packaging>jar</packaging>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -30,7 +32,15 @@
       <artifactId>springfox-swagger-ui</artifactId>
       <version>${swagger.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
+    </dependency>
   </dependencies>
+
+
+
 
   <scm>
     <tag>v1.5</tag>

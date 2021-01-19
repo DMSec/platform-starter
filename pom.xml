@@ -38,17 +38,17 @@
   
 
   <modules>
-    <module>starter-cloudwatch</module>
-    <module>starter-commons</module>
-    <module>starter-context</module>
-    <module>starter-exception-handler</module>
-    <module>starter-feign</module>
-    <module>starter-logging</module>
-    <module>starter-metrics</module>
-    <module>starter-prometheus</module>
-    <module>starter-swagger</module>
-    <module>starter-web</module>
-    <module>starter-tracing</module>
+      <module>starter-logging</module>
+      <module>starter-feign</module>
+      <module>starter-tracing</module>
+      <module>starter-exception-handler</module>
+      <module>starter-swagger</module>
+      <module>starter-web</module>
+      <module>starter-commons</module>
+      <module>starter-prometheus</module>
+      <!--module>starter-context</module-->
+      <module>starter-cloudwatch</module>
+      <module>starter-metrics</module>
   </modules>
 
     <properties>
@@ -83,6 +83,14 @@
 
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-configuration-processor</artifactId>
+                <version>2.1.6.RELEASE</version>
+                <optional>true</optional>
+            </dependency>
+
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -189,6 +197,11 @@
                 <scope>test</scope>
             </dependency>
 
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-autoconfigure</artifactId>
+                <version>2.4.1</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -325,7 +338,6 @@
 
 
 
-
         </plugins>
     </build>
 
@@ -361,6 +373,15 @@
             <name>GitHub DMSec Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/DMSec/platform-starter</url>
         </repository>
+
+
+        <repository>
+            <id>snapshots-repo</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <releases><enabled>false</enabled></releases>
+            <snapshots><enabled>true</enabled></snapshots>
+        </repository>
+
     </repositories>
 
 
