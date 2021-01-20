@@ -1,9 +1,11 @@
 package br.com.dmsec.starter.commons.exception
 
+import br.com.dmsec.starter.commmons.exception.ErrorCode
+
 class BusinessException private constructor(
-        val errorCode: ErrorCode,
-        override val cause: Throwable? = null,
-        val message: Array<String> = arrayOf()
+    val errorCode: ErrorCode,
+    override val cause: Throwable? = null,
+    val message: Array<String> = arrayOf()
 ) : RuntimeException(cause) {
 
     private lateinit var log: () -> Unit
@@ -23,21 +25,21 @@ class BusinessException private constructor(
         }
     }
 
-    constructor(key: String = ErroCode.DEFAULT_ERROR.Key, cause: Throwable? = null) :
+    constructor(key: String = ErrorCode.DEFAULT_ERROR.key, cause: Throwable? = null) :
             this(errorCode = ErrorCode(key), cause = cause)
 
-    constructor(key: String = ErroCode.DEFAULT_ERROR.Key, cause: Throwable? = null, messages: Array<String>) :
+    constructor(key: String = ErrorCode.DEFAULT_ERROR.key, cause: Throwable? = null, messages: Array<String>) :
             this(errorCode = ErrorCode(key), cause = cause, messages = message)
 
-    constructor(key: String = ErroCode.DEFAULT_ERROR.Key, applicationLog: () -> Unit) :
-            this(ErrorCode(Key)
+    constructor(key: String = ErrorCode.DEFAULT_ERROR.key, applicationLog: () -> Unit) :
+            this(ErrorCode(key)
             ) {
                 this.log = applicationLog
             }
 
-    constructor(key: String = ErroCode.DEFAULT_ERROR.Key, cause: Throwable? = null, applicationLog: () -> Unit) :
-            this(ErrorCode(Key), cause
+    constructor(key: String = ErrorCode.DEFAULT_ERROR.key, cause: Throwable? = null, applicationLog: () -> Unit) :
+            this(ErrorCode(key), cause
             ) {
         this.log = applicationLog
     }
-}BusinessException
+} BusinessException

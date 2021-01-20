@@ -37,6 +37,12 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-autoconfigure</artifactId>
     </dependency>
+    <dependency>
+      <groupId>br.com.dmsec</groupId>
+      <artifactId>starter-commons</artifactId>
+      <version>1.8-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
 
 

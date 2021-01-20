@@ -1,10 +1,12 @@
 package br.com.dmsec.starter.commons.exception
 
+import br.com.dmsec.starter.commmons.exception.ErrorCode
+
 class DynamicException private constructor(
     val statusCode: Int,
     val errorCode: ErrorCode,
     override val cause: Throwable? = null,
-    val message: Array<String> = arrayOf()
+    override val message: Array<Any> = arrayOf()
 ) : RuntimeException(cause) {
 
     private lateinit var log: () -> Unit
@@ -24,14 +26,13 @@ class DynamicException private constructor(
         }
     }
 
-    constructor(statusCode: Int, key: String = ErroCode.DEFAULT_ERROR.Key, cause: Throwable? = null) :
+    constructor(statusCode: Int, key: String = ErrorCode.DEFAULT_ERROR.key, cause: Throwable? = null) :
             this(statusCode, errorCode = ErrorCode(key), cause = cause)
 
-    constructor(statusCode: Int, key: String = ErroCode.DEFAULT_ERROR.Key, cause: Throwable? = null, messages: Array<String>) :
+    constructor(statusCode: Int, key: String = ErrorCode.DEFAULT_ERROR.key, cause: Throwable? = null, messages: Array<String>) :
             this(statusCode, errorCode = ErrorCode(key), cause = cause, messages = message)
 
-    constructor(statusCode: Int, key: String = ErroCode.DEFAULT_ERROR.Key, applicationLog: () -> Unit) :
-            statusCode,
+    constructor(statusCode: Int, key: String = ErrorCode.DEFAULT_ERROR.key, applicationLog: () -> Unit) : this.statusCode,
             this(ErrorCode(Key)
             ) {
                 this.log = applicationLog

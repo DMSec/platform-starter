@@ -10,7 +10,8 @@ import org.springframework.core.env.Environment
 import springfox.documentation.builders.ApiInfoBuilder
 import springfox.documentation.builders.RequestHandlerSelectors
 import springfox.documentation.service.ApiInfo
-import springfox.documentation.api.DocumentationType
+import springfox.documentation.service.Documentation
+import springfox.documentation.spi.DocumentationType
 import springfox.documentation.spring.web.plugins.Docket
 import springfox.documentation.swagger2.annotations.EnableSwagger2
 
@@ -21,26 +22,26 @@ class SwaggerAutoConfiguration {
     @Autowired
     private val environment: Environment? = null
 
-    @value("\${swagger.api.info.title}")
+    @Value("\${swagger.api.info.title}")
     lateinit var title: String
 
-    @value("\${swagger.api.info.description}")
+    @Value("\${swagger.api.info.description}")
     lateinit var description: String
 
-    @value("\${swagger.api.info.version}")
+    @Value("\${swagger.api.info.version}")
     lateinit var version: String
 
-    @value("\${spring.application.name}")
+    @Value("\${spring.application.name}")
     lateinit var appName: String
 
     @Bean
     fun api(): Docket {
-        val apiInfo = Docket(Documentation.Type.SWAGGER_2)
+        val apiInfo = Docket(DocumentationType.SWAGGER_2)
                 .select()
                 .apis(Predicates.not(RequestHandlerSelectors.basePackage("org.springframework.boot")))
-                .apis(Predicates.not(RequestHandlerSelectors.withClassAnnotation(SwaggerIgnore:class.java)))
-                .apis(Predicates.not(RequestHandlerSelectors.withMethodAnnotation(SwaggerIgnore:class.java)))
-                .build().apiInfo(apiEndPointsInfo())
+                .apis(Predicates.not(RequestHandlerSelectors.withClassAnnotation(SwaggerIgnore::class.java)))
+                .apis(Predicates.not(RequestHandlerSelectors.withMethodAnnotation(SwaggerIgnore::class.java)))
+                .build().apiInfo(apiEndpointsInfo())
         if(environment!!.activeProfiles.contains("production")) apiInfo.pathMapping(appName)
         return apiInfo
     }

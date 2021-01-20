@@ -2,6 +2,13 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/starter-cloudwatch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter-commons/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter-context/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter-exception-handler/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter-feign/src/main/kotlin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/starter-metrics/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter-prometheus/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter-swagger/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/starter-tracing/src/main/kotlin" charset="UTF-8" />
   </component>
 </project>

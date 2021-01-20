@@ -60,13 +60,13 @@
     </dependency>
 
 
-    <!-- Incluir Context
+    <!-- Incluir Context-->
     <dependency>
       <groupId>br.com.dmsec</groupId>
       <artifactId>starter-context</artifactId>
-      <version>1.6-SNAPSHOT</version>
+      <version>1.8-SNAPSHOT</version>
     </dependency>
-  -->
+
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
